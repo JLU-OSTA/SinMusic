@@ -1,7 +1,7 @@
-%ÌáÉıÒôÀÖÆµÓòÖĞÖ¸¶¨ÆµÂÊµÄ¹¦ÂÊÖµ£»
-%ÓÉ¼ªÁÖ´óÑ§¿ª·ÅÔ´¼¼ÊõĞ­»á±àĞ´ÓÚ2017Äê3ÔÂ11ÈÕ¡£
+%æå‡éŸ³ä¹é¢‘åŸŸä¸­æŒ‡å®šé¢‘ç‡çš„åŠŸç‡å€¼ï¼›
+%ç”±å‰æ—å¤§å­¦å¼€æ”¾æºæŠ€æœ¯åä¼šç¼–å†™äº2017å¹´3æœˆ11æ—¥ã€‚
 name=input('$ Please input the name of music:\n','s');
-fprintf('$ Loading audio file£¨%s)..........',name);
+fprintf('$ Loading audio file(%s)..........',name);
 [music,fs]=audioread(name);
 fhz=input('OK\n$ Please insert the frequence of Sin:\n');
 fprintf('$ Creating %dHz Sin submatrix..........',fhz);
